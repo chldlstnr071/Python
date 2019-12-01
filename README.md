@@ -37,6 +37,7 @@ Ex) If you rotate 30 degrees, you have to draw 12 times for 1 turn, 45 degrees r
 # test4.py
 4. The trainee who wants to study hard wants to write a program that records how much he studies every day. Enter the time shown in the figure below and the [study] column to record the total study time in [Total Study], and enter the time for the [Play] column to accumulate the total break in [Total Play]. Calculate time cumulatively. Finally, press [Cal] button to calculate [Total Study] and [Total Play]. If the total study time is much, “You Win” is displayed. Do it. (You can output any character before pressing [cla].)
 Ex)
+
 ![795852CE30795854C8317F5157CD](https://user-images.githubusercontent.com/45475182/69910040-f7274180-1447-11ea-86aa-3fb03cb5487e.png)
 
 # test5.py

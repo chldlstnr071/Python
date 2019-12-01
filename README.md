@@ -1,7 +1,8 @@
 # Python
 
-1) 파일을 생성하고 읽고자 한다. 파일의 출력형식은 각 라인의 번호(n)를 출력하고자 한다. 그리고 추가적으로 각 라인의 번호 출력 횟수(m)은 ≡ n(mode 4)의 형식으로 하고자 한다. n을 입력받아서 이 파일 전체를 출력한다. 만약에 라인 번호를 입력해서 그 라인만을 출력하는 것은 힘들겠죠....그래서 제외...쩝. 하지만, 출력과 전체 라인 출력은 완성하시오.
-예) 입력한 수가 5이지만 4는 나머지가 없으므로 출력물이 아예 없음.
+test1.py
+1) Create and read a file. The format of the file is to output the number (n) of each line. In addition, the number output number (m) of each line is to be in the form of n (mode 4). Take n and print the entire file. Complete the output and the entire line output.
+
 
 5
 
@@ -16,62 +17,10 @@
  
 
  
+test2.py
+2) While studying mathematics, I found the following results and decided to calculate them. However, since it should be calculated according to the input value, I decided to write it as a program. Implement the answer below. 2, -4,6, -8,10, -12,14 ..... n where n = (-1) (k + 1) ∙ 2k, k = 1,2,3 ...... is up to m. Take m to find the sum of the cumulative totals.
 
-2) 수학을 공부하다가 아래와 같은 결과를 발견하고, 계산해 보기로 마음먹었다. 하지만, 입력값에 따라 계산이 되어야 하므로 프로그램으로 짜기로 하였다. 아래 수식의 답이 나오도록 구현하시오. 2,-4,6,-8,10,-12,14.....n 여기서 n = (-1)(k+1)∙2k, k=1,2,3......m까지 이다. m을 입력받아 총 누적의 합을 구하시오.
-
-예) 입력이 5라면 2+(-4)+6+(-8)+10 = 6 이다. 시간복잡도를 줄이면 가점이 있음. 시간복잡도란 프로그램의 답을 구하기 위한 일렬의 과정이라고 생각하라.
-
-5
-
-result : 6
-
- 
-
- 
-
-3) 원안에서 회전하는 정삼각형을 그리고 싶다. 입력은 원의 지름을 입력하면 정삼각형(이때 각 꼭지점은 윈의 선위에 있어야 한다.)을 그리고, 추가적으로 회전(한바퀴 이상만 돌면 됨)하면서 정삼각형을 그리면 추가점이 있습니다. 어렵더라도 도전한번 해 보세요. 추가점이니 시간 배정을 잘 하세요.....^^ (회전 각도가 30도, 45도, 90도 중에서 하나로만 하면됨, 30도는 추가점 온점, 45도는 추가점의 2/3, 90도는 추가점의 1/2이 배점됩니다.)
-예) 30도는 회전하면 1바퀴 돌 때 12번 그려야 한고, 45도 회전은 8번 그려야 하며, 90도는 4번을 그리면 된다.) 
-
- 
-
- 
-
-4) 열심히 공부하는 철수가 하루하루 공부하는 양을 기록하는 프로그램을 작성하고 싶어 한다. 아래의 그림과 [study]칸에 해당하는 시간을 입력하면 [Total Study]에 누적으로 총 공부한 시간을 기록하고, [Play]칸에 해당하는 시간을 입력하면 [Total Play]에 누적으로 총 휴식 시간을 누적으로 계산하시오. 그리고 마지막에 [Cal]이란 버튼를 누르면 [Total Study]와 [Total Play]를 계산하여 총 공부시간이 많으면 “You Win”, 같거나 적다면 “You need to study”란 문자를 [Total Play] 밑에 출력하시오. ([cla]누르기 전에는 임의의 문자를 출력해도 된다.)
-예) GUI 모양은 그렇게 신경안써도 됨 하지만, 꼭 채점할 때 구분할 수 있게 해 주어야 함. 
-
-
-
-
-
-
-
-주차	15 주 (2017.12.03 ~ 2017.12.09)
-제목	기말평가
-제출방식	온라인
-게시일	2017.12.07 오후 2:10
-마감일	2017.12.07 오후 5:00
-배점	비공개
-지각제출	불허
-1) 파일을 생성하고 읽고자 한다. 파일의 출력형식은 각 라인의 번호(n)를 출력하고자 한다. 그리고 추가적으로 각 라인의 번호 출력 횟수(m)은 ≡ n(mode 4)의 형식으로 하고자 한다. n을 입력받아서 이 파일 전체를 출력한다. 만약에 라인 번호를 입력해서 그 라인만을 출력하는 것은 힘들겠죠....그래서 제외...쩝. 하지만, 출력과 전체 라인 출력은 완성하시오.
-예) 입력한 수가 5이지만 4는 나머지가 없으므로 출력물이 아예 없음.
-
-5
-
-1
-
-2 2
-
-3 3 3
-
-5
-
- 
-
- 
-
-2) 수학을 공부하다가 아래와 같은 결과를 발견하고, 계산해 보기로 마음먹었다. 하지만, 입력값에 따라 계산이 되어야 하므로 프로그램으로 짜기로 하였다. 아래 수식의 답이 나오도록 구현하시오. 2,-4,6,-8,10,-12,14.....n 여기서 n = (-1)(k+1)∙2k, k=1,2,3......m까지 이다. m을 입력받아 총 누적의 합을 구하시오.
-
-예) 입력이 5라면 2+(-4)+6+(-8)+10 = 6 이다. 시간복잡도를 줄이면 가점이 있음. 시간복잡도란 프로그램의 답을 구하기 위한 일렬의 과정이라고 생각하라.
+Example: If the input is 5, 2 + (-4) +6 + (-8) +10 = 6. Reducing time complexity has advantages. Think of time complexity as a series of steps to answer the program.
 
 5
 
@@ -80,24 +29,22 @@ result : 6
  
 
  
-
-3) 원안에서 회전하는 정삼각형을 그리고 싶다. 입력은 원의 지름을 입력하면 정삼각형(이때 각 꼭지점은 윈의 선위에 있어야 한다.)을 그리고, 추가적으로 회전(한바퀴 이상만 돌면 됨)하면서 정삼각형을 그리면 추가점이 있습니다. 어렵더라도 도전한번 해 보세요. 추가점이니 시간 배정을 잘 하세요.....^^ (회전 각도가 30도, 45도, 90도 중에서 하나로만 하면됨, 30도는 추가점 온점, 45도는 추가점의 2/3, 90도는 추가점의 1/2이 배점됩니다.)
-예) 30도는 회전하면 1바퀴 돌 때 12번 그려야 한고, 45도 회전은 8번 그려야 하며, 90도는 4번을 그리면 된다.) 
-
- 
+test3.py
+3) I want to draw a rotating equilateral triangle in a circle. For input, enter the diameter of the circle, and draw an equilateral triangle (where each vertex must be above the line of the win), and then draw an equilateral triangle with additional rotation (just one more round).
+Ex) If you rotate 30 degrees, you have to draw 12 times for 1 turn, 45 degrees rotate 8 times, and 90 degrees 4 times.)
 
  
 
-4) 열심히 공부하는 철수가 하루하루 공부하는 양을 기록하는 프로그램을 작성하고 싶어 한다. 아래의 그림과 [study]칸에 해당하는 시간을 입력하면 [Total Study]에 누적으로 총 공부한 시간을 기록하고, [Play]칸에 해당하는 시간을 입력하면 [Total Play]에 누적으로 총 휴식 시간을 누적으로 계산하시오. 그리고 마지막에 [Cal]이란 버튼를 누르면 [Total Study]와 [Total Play]를 계산하여 총 공부시간이 많으면 “You Win”, 같거나 적다면 “You need to study”란 문자를 [Total Play] 밑에 출력하시오. ([cla]누르기 전에는 임의의 문자를 출력해도 된다.)
-예) GUI 모양은 그렇게 신경안써도 됨 하지만, 꼭 채점할 때 구분할 수 있게 해 주어야 함. 
+ test4.py
+4) The trainee who wants to study hard wants to write a program that records how much he studies every day. Enter the time shown in the figure below and the [study] column to record the total study time in [Total Study], and enter the time for the [Play] column to accumulate the total break in [Total Play]. Calculate time cumulatively. Finally, press [Cal] button to calculate [Total Study] and [Total Play]. If the total study time is much, “You Win” is displayed. Do it. (You can output any character before pressing [cla].)
+Ex)
 ![795852CE30795854C8317F5157CD](https://user-images.githubusercontent.com/45475182/69910040-f7274180-1447-11ea-86aa-3fb03cb5487e.png)
 
 
- 
+5) A traffic accident statistics program will be prepared. In big titles cars are sedans and trucks. In the case of sedans, sedan 1 (s1), sedan 2 (s2), and sedan 3 (s3) are made of three cars, and in the case of trucks, trucks 1 (t1) to trucks 7 (t7) exist. We want to record the occurrence of an accident for an individual car (considering only a 1: 1 car accident) and find the total number of car accidents and the number of car accidents for each individual car. Print out the answers to each question.
 
-5) 교통사고 통계 프로그램을 작성하고자 한다. 자동차란 큰 타이틀에서 세단과 트럭이 있다. 세단의 경우는 세단1(s1), 세단2(s2), 세단3(s3)이란 3대의 차를 만들고 트럭의 경우는 트럭1(t1)에서부터 트럭 7(t7)까지 존재한다. 개별 자동차에 대한 사고 발생(1:1의 차 사고만을 고려함)을 기록하고 전체 자동차 사고수와 각 개별 자동차의 자동차 사고 수를 구하고자 한다. 각 물음에 대한 답변을 출력하시오. (클래스, 상속등을 사용하면 가점)
+Ex) First, input the car crash and output the result.
 
-예) 먼저 자동차 충돌에 대한 입력부터 처리하고 결과를 출력한다.
 s1 
 
 t1
